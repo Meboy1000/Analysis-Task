@@ -1,0 +1,1 @@
+Run init with the data in the same directory to create the db. then main will work. (In case uploading the db doesnt work on its own)
