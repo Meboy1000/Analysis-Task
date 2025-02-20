@@ -38,4 +38,4 @@ with pd.read_csv("./2022_place_canvas_history.csv",  skip_blank_lines=True, chun
     final_df['user_id'] = pd.Categorical(final_df['user_id']).codes
     print(final_df.info())
     print(final_df)
-    final_df.to_parquet('wk3data.parquet', compression='snappy', engine='auto')
+    final_df.to_parquet('data.parquet', compression='snappy', engine='auto')
